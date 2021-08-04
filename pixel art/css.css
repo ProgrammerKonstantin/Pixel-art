@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #4906A7;
+}
+
+.lastick-label{font-size:24px;}
+
+.chosen-color{
+	padding:8px 36px 8px 12px;
+	border: 5px solid gold;
+	border-radius:5px;
+	background-color: #400593;
+	color:white;
+	font-size:16px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  line-height: 20px;
+  color: #eff1f5;
+  border-bottom: 5px solid #38047F;
+  background-color: #400593;
+}
+
+.container {
+  width: 326px;
+  height: 66px;
+  margin: 0 auto;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  position: relative;
+  height: 100px;
+  width: 598px;
+  margin: 0 auto;
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid gold;
+ border-radius:5px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #7D27F6;
+  background-color: white;
+  cursor: pointer;
+}
+
